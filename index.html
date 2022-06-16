@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <style>       
+    hr{
+        height: 1px;
+        background-color:gold;
+        border: none;
+        width: 40%
+    }
+</style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CinioFile</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&family=Great+Vibes&family=Pacifico&family=Patrick+Hand&family=Sonsie+One&display=swap');
+  </style>
+</head>
+
+<body>
+  top nav bar
+  <header class="top-flex-container">
+    <div class="buttons">
+      <span class="btn-group-left">
+        <a class="header-button gold" href="#myciniopro"><i class="fa-solid fa-cannabis"></i>
+          <div>MyCinioPro</div>
+        </a>
+      </span>
+      <span class="btn-group-right">
+        <a class="header-button" href="#signup">
+          <div>Sign up</div>
+        </a>
+        <a class="header-button" href="#login">
+          <div>Log in</div>
+        </a>
+        <a class="header-button" href="#connect">
+          <div>Connect</div>
+        </a>
+        <a class="header-button" href="#download">
+          <div>Download</div>
+        </a>
+        <a class="header-button" href="#support">
+          <div>Support</div>
+        </a>
+      </span>
+    </div>
+  </header>
+  Flex Title Container
+  <section class="title-flex-container">
+    <div class="title-box">
+      <h1 class="main-header">CinioFile</h1>
+      <h2 class="sub-header">Finding What's Important</h2>
+    </div>
+  </section>
+
+  Search Area
+  <div class="whole">
+  <section>
+    <div class="search">
+      <div class="section_header">
+        <h2 class="section-title">What Are You Watching?</h2>
+      </div>
+      <form class= "search-form" id="form">
+        <!-- Added 'id's for movieSearch and movieSearchButton -->
+        <input class="contact-container-input"  placeholder="Enter your Movie or TV Show" id="movieSearch">
+        <button class="search-form-submit-button" id="movieSearchButton">Search</button>
+      </form>
+    </div>
+  </section>
+  Results for search
+  <hr>
+  <section class="results">
+    <div class="userSongs">
+      <div class="section_header">
+      <h2 class="section-title">Your Movies & TV Shows</h2>
+      </div>
+      To be filled in with API
+      <a class="titles">
+        <div class="title_img">
+         <h1>Back To The Future</h1>
+        </div>
+      </a>
+      <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+      </ul>
+    </div>
+  </section>
+  javascript plugin
+  <section class="player">
+    <div class="playerPlugin"></div>
+  </section>
+
+  <hr>
+  <section class="join_us">
+    <!-- Added 'id's for signup, name, email, username, password, and signupButton -->
+    <div class="section_header" id="signup">
+      <h1 class="section-title">Sign Up</h1>
+    </div>  
+    <form class="contacts search-form">
+        <input class="contact-container-input" type="text" placeholder="Name" id="name">
+        <input class="contact-container-input" type="text" placeholder="E-mail" id="email">
+        <input class="contact-container-input" type="text" placeholder="User Name" id="username">
+        <input class="contact-container-input" type="text" placeholder="Password" id="password">
+      <button class="search-form-submit-button" id="signupButton">Submit</button>
+    </form>
+    <hr>
+    <!-- Added 'id's for login, emailOrUsername, loginPassword, and loginButton -->
+    <div class="section_header" id="login">
+      <h1 class="section-title">Log In</h1>
+    </div>
+    <form class="section-title contacts search-form">
+        <input class="contact-container-input" type="text" placeholder="UserName or E-mail" id="emailOrUsername">
+        <input class="contact-container-input" type="text" placeholder="Password" id="loginPassword">
+      <button class="search-form-submit-button" id="loginButton">Submit</button>
+    </form>  
+  </section>
+
+  <hr>
+  <section class="social-icons-flex">
+    <div class="section_header" id="connect">
+      <h2 class="section-title">Come Along The Journey And Share Your Favorites</h2>
+    </div>
+    <div class="icon-container">
+        <a title="FaceBook" target="_blank" href="https://www.facebook.com/brandon.okman"><img class="social_icons" src="./images/facebook.png" alt= FaceBook></a>  
+        <a title="Instagram" target="_blank" href="https://www.instagram.com/ciniofile/"><img class="social_icons" src="./images/instagram.png" alt= Instagram></a>
+        <a title="Twitter" target="_blank" href="https://twitter.com/CinioFile"><img class="social_icons" src="./images/twitter.png" alt= Twitter></a>
+    </div>
+  </section>
+  <hr>
+  <section class="download">
+    <div class="section_header" id="download">
+      <h1 class="section-title">Download the App</h1>
+    </div>
+      <div class="icon-container">
+        <a title="Apple App Store" target="_blank" href="https://www.apple.com/app-store/"><img class="apps_icon" src="./images/app-store.png" alt= App Store></a>  
+        <a title="Google Play Store" target="_blank" href="https://play.google.com/store/games?&utm_source=na_Med&utm_medium=hasem&utm_content=Nov0520&utm_campaign=Evergreen&pcampaignid=MKT-EDR-na-us-1000189-Med-hasem-py-Evergreen-Nov0520-Text_Search_BKWS-id_100752_%7CEXA%7CONSEM_kwid_43700045371544949&gclid=Cj0KCQjw-daUBhCIARIsALbkjSa3LTZBDHEtHveMBJ3iZooIRWKCDg56NExEczZSa__dxNIoPWePsp0aAnEkEALw_wcB&gclsrc=aw.ds"><img class="apps_icon" src="./images/google-play.png" alt= Google Play Store></a>
+        <a title="Amazon App Store" target="_blank" href="https://www.amazon.com/gp/mas/get/amazonapp"><img class="apps_icon" src="./images/amazonApp.jpeg" alt= Amazon Apps></a>
+      </div>
+  </section>
+
+  <hr>
+  <section class="support">
+    <!-- Added 'id's for support, supportName, supportEmail, supportMessage, and supportButton -->
+    <div class="section_header" id="support">
+      <h1 class="section-title">Support</h1>
+    </div>
+    <form class="contacts search-form1">
+        <input class="contact-container-input" type="text" placeholder="Name" id="supportName">   
+        <input class="contact-container-input" type="text" placeholder="CinioFileFan@ciniofile.com" id="supportEmail">
+        <input class="contact-container-input" type="text" placeholder="How Can We Help You?" id="supportMessage">
+      <button class="search-form-submit-button" id="supportButton">Submit</button>
+    </form>   
+  </section>
+
+<hr>
+<section class="creators">
+<div class="section_header">
+  <h2 class="section-title">Created By</h2>
+</div> 
+</section>
+
+<div class="us">
+  <h3><a href="https://github.com/brandonokman" target="_blank">Brandon Okman</a></h3>
+  <h3><a href="https://github.com/AWollert" target="_blank">Adam Wollert</a></h3>
+  <h3><a href="https://github.com/joshuabenzelli" target="_blank">Joshua Booth</a></h3>
+  <h3><a href="https://github.com/Claudiatri1" target="_blank">Claudia De La Trinidad</a></h3>
+</div>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
